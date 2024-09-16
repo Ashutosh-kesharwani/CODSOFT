@@ -3,10 +3,10 @@
 <br>
 Projects:
 <br>
-1.Number Guessing Game 🎮
+1.Number Guessing Game 🎮<hr>
 A fun game where users guess a random number. The program provides feedback to guide the guesses.
 <br>
-2.Simple Calculator 🧮
+2.Simple Calculator 🧮--->
 A basic calculator for performing arithmetic operations like addition, subtraction, multiplication, and division.
 <br>
 3.Tic-Tac-Toe Game ❌⭕
