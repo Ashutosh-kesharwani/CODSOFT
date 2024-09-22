@@ -37,7 +37,7 @@ int main() {
         }
 
         double n1, n2;
-        isSingleInput = (choice == 5 || choice == 6 || choice >= 9); // Operations with single input
+        isSingleInput = (choice == 5 || choice == 6 || choice >= 9 && choice<12); // Operations with single input
 
         // Get user inputs
         if (isSingleInput) {
@@ -87,8 +87,8 @@ int main() {
             case 9: 
                 cout << "The sine of " << n1 << " degrees is: " << sin(n1 * PI / 180) << endl; 
                 break;
-            case 10: cout << "The cosine of the number is: " << cos(n1) << endl; break;
-            case 11: cout << "The tangent of the number is: " << tan(n1) << endl; break;
+            case 10: cout << "The cosine of the number is: " << cos(n1 * PI / 180) << endl; break;
+            case 11: cout << "The tangent of the number is: " << tan(n1 * PI / 180) << endl; break;
             case 12: cout << "Exiting the calculator..." << endl; break;
             default: cout << "Invalid choice!" << endl;
         }
