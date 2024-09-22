@@ -3,7 +3,7 @@
 #include<limits>
 using namespace std;
 
-#define PI 3.14159265 // Define the value of π
+#define PI 3.14159265 // Define the value of PI 
 
 void showMenu() {
     cout << "\nWelcome to the Advanced Calculator!" << endl;
